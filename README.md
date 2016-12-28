@@ -6,7 +6,7 @@ It uses the gem installation on the official [https://hub.docker.com/r/library/r
 # port configuration
 In case you need to change the default ports (1025 smtp, 1080 web),
 please change the Dockerfile:
-    CMD ["--ip", "0.0.0.0", "--smtp-port", "1025", "--http-port", "1080"]
+`CMD ["--ip", "0.0.0.0", "--smtp-port", "1025", "--http-port", "1080"]`
 
 # Pull Requests
 Pull Requests welcome.
