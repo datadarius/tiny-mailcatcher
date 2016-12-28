@@ -1,7 +1,7 @@
 # tiny-mailcatcher
 This is the Dockerfile for tiny-mailcatcher.
-It's purpose is to provide a very small docker image for [https://rubygems.org/gems/mailcatcher/](mailcatcher)
-It uses the gem installation on the official [https://hub.docker.com/r/library/ruby](ruby:2-alpine)
+It's purpose is to provide a very small docker image for [mailcatcher](https://rubygems.org/gems/mailcatcher/)
+It uses the gem installation on the official [ruby:2-alpine](https://hub.docker.com/r/library/ruby)
 
 # port configuration
 In case you need to change the default ports (1025 smtp, 1080 web),
