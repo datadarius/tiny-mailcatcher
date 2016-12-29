@@ -2,12 +2,11 @@
 
 # tiny-mailcatcher
 This is the Dockerfile for tiny-mailcatcher.
-It's purpose is to provide a very small docker image for [mailcatcher](https://rubygems.org/gems/mailcatcher/)
+It's purpose is to provide a very small docker image for [mailcatcher](https://rubygems.org/gems/mailcatcher/).
 It uses the gem installation on the official [ruby:2-alpine](https://hub.docker.com/r/library/ruby)
 
 # size
-Image is **35MB**.
-Extracted docker image is **87MB**.
+Image layer is **35MB**. The full docker image including the ruby:2-alpine base is **87MB**.
 
 # registry
 `docker pull quay.io/datadarius/tiny-mailcatcher`
