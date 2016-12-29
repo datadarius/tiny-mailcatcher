@@ -7,7 +7,7 @@ It uses the gem installation on the official [ruby:2-alpine](https://hub.docker.
 
 # size
 Image is **35MB**.
-Extracted docker image is **171MB**.
+Extracted docker image is **87MB**.
 
 # registry
 `docker pull quay.io/datadarius/tiny-mailcatcher`
