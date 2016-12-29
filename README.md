@@ -10,7 +10,6 @@ Image is 35MB.
 Extracted docker image is 171MB.
 
 # registry
-
 `docker pull quay.io/datadarius/tiny-mailcatcher`
 
 # port configuration
@@ -19,7 +18,8 @@ please change the Dockerfile:
 
 `CMD ["--ip", "0.0.0.0", "--smtp-port", "1025", "--http-port", "1080"]`
 
+# timezone
+Europe/Berlin
+
 # pull requests
 Pull Requests welcome.
-
-
